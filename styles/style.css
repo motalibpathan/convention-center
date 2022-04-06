@@ -1,0 +1,65 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* common style and utilities */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header style */
+header h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.section-title {
+  font-size: 38px;
+}
+/* slider style */
+.carousel-title {
+  font-size: 48px;
+}
+
+.order-btn {
+  background-color: #f496d267;
+}
+.fa-check-circle {
+  color: #5243c2;
+}
+/* our package card style */
+#special-card {
+  position: relative;
+  top: -45px;
+  box-shadow: 0px 30px 30px #0d6dfd8c;
+  border-radius: 25px;
+}
+
+/* custom section background */
+.section-bg {
+  background-color: rgb(226, 242, 252);
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 19px;
+  }
+  /* carousel style */
+  .carousel-item,
+  .carousel-item img {
+    height: 500px;
+  }
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  #special-card {
+    position: relative;
+    top: 0;
+  }
+  /* card style */
+  .card {
+    width: 90%;
+  }
+}
